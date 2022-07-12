@@ -54,4 +54,6 @@ if (questionFive === 'y' || questionFive === 'yes'){
   alert('You didn\'t answer in the proper format');
 }
 
+alert(`Thanks for answering ${userName}!`);
+
 document.getElementById('nameScript').textContent='Thanks for visiting '+userName + '! I hope you learned something about me!';
