@@ -1,0 +1,15 @@
+h1{
+  background-color: hsl(0, 0%, 20%);
+  color: rgb(255, 254, 206);
+}
+
+p{
+  background-color: rgb(255, 254, 206);
+  color: hsl(0, 0%, 20%); 
+}
+body{
+  background-color:rgb(255, 254, 206) ;
+}
+footer{
+  text-align: center;
+}
