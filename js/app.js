@@ -44,4 +44,14 @@ if (questionFour === 'y' || questionFour === 'yes'){
   alert('You didn\'t answer in the proper format');
 }
 
+let questionFive = prompt('Does Brian consume coffee?').toLowerCase();
+
+if (questionFive === 'y' || questionFive === 'yes'){
+  alert('Correct, Brian can be a total jerk before he gets his coffee.');
+} else if (questionFive === 'n' || questionFive === 'no'){
+  alert('No. No. No. Brian is sadly quite addicted to caffine.');
+} else {
+  alert('You didn\'t answer in the proper format');
+}
+
 document.getElementById('nameScript').textContent='Thanks for visiting '+userName + '! I hope you learned something about me!';
