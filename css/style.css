@@ -7,15 +7,15 @@ h1{
 p{
   background-color: rgb(255, 254, 206);
   color: hsl(0, 0%, 20%);
-  width: 50%; 
-  
 }
+
 body{
   background-color:rgb(255, 254, 206);
-  
+  max-width: 500px;
+  margin: auto;
 }
+
 footer{
   text-align: center;
-  width: 50%;
   font-size: 8pt;
 }
