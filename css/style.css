@@ -1,7 +1,7 @@
 h1{
   background-color: hsl(0, 0%, 20%);
   color: rgb(255, 254, 206);
-  font-size: 28pt;
+  font-size: 28px;
 }
 
 p{
@@ -11,7 +11,7 @@ p{
 
 body{
   background-color:rgb(255, 254, 206);
-  max-width: 500px;
+  max-width: 60%;
   margin: auto;
 }
 
