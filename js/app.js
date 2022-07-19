@@ -88,8 +88,7 @@ function questionSix(){
         clueGuesses--;
       } if (userGuess === myNum) {
         alert('You WIN!');
-      }
-      if (clueGuesses === 0) {
+      } else if (clueGuesses === 0 && userGuess !== myNum) {
         alert(`Good try but the answer was ${myNum}`);
       }
     }
